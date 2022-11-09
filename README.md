@@ -1,6 +1,6 @@
-#Desafio Bsale
+# Desafio Bsale
 
-##Requisitos:
+## Requisitos:
 
 ➔ Construir una tienda online.
 ➔ Utilizar la base de datos que se proporciona.
@@ -19,6 +19,6 @@ material, Jquery, entre otros.
 Heroku, Netlity, Aws u otro.
 ➔ Disponibilizar el código en Github.
 
-##Backend:
+## Backend:
 
-##Frontend:
+## Frontend:
