@@ -4,7 +4,7 @@ require("dotenv").config();
 // Importacion de MYSQL
 const mysql = require("mysql");
 
-//Datos de Conexión
+// Datos de Conexión
 const connection = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
   database: process.env.DB_DATABASE,
 });
 
-//Conexion a la base de datos
+// Conexion a la base de datos
 connection.connect((err) => {
   if (err) {
     console.error("error connecting: " + err.stack);
@@ -21,7 +21,7 @@ connection.connect((err) => {
   console.log("connected as id " + connection.threadId);
 });
 
-//Funcion para evitar desconexion de la DB
+// Funcion para evitar desconexion de la DB
 setInterval(() => {
   connection.query("SELECT 1");
 }, 4000);

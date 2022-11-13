@@ -21,5 +21,5 @@ router
   //Ruta de productos por categorias
   .get("/category/:name", productController.getProductByCategory);
 
-//Exportacion de los modulos
+//Exportacion de los modulos de ruta
 module.exports = router;

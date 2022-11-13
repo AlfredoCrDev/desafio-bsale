@@ -1,3 +1,6 @@
+/* Servicios de la bdd */ 
+
+// Importacion de modulo de la bdd
 const connection = require("../database/db");
 
 // Query de todos los Productos
@@ -57,6 +60,7 @@ const getAllCategory = () => {
   });
 };
 
+// Exportacion de los modulos de servicios
 module.exports = {
   getAllProducts,
   getProduct,

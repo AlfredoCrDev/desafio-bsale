@@ -29,7 +29,7 @@ const getProductByCategory = async (req, res) => {
   res.json(await productService.getProductByCategory(name));
 };
 
-// Exportacion de los modules
+// Exportacion de los controladores
 module.exports = {
   getAllProducts,
   getProduct,

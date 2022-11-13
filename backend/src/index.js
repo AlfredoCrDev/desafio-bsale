@@ -1,10 +1,10 @@
-//Importacion de la lib express para su uso
+// Importacion de la lib express para su uso
 const express = require("express");
 
 // Improtar lib CORS para poder consumir API
 const cors = require("cors");
 
-//Importacion de la ruta raiz v1
+// Importacion de la ruta raiz v1
 const v1ProductRouter = require("./v1/routes/productRoutes");
 
 // Config del servidor con express
