@@ -28,6 +28,24 @@ Toda la lógica comercial estará en la capa de **servicio** que exporta ciertos
 
 La tercera capa es la capa de **acceso** a datos donde trabajaremos con nuestra base de datos (Sólo consultas).
 
+Endpoint:
+Para todos los productos:
+https://test-bsale.onrender.com/api/v1/products"
+
+Para buscar producto en especifico (requiere argumento por ejemplo api/v1/product/ron):
+https://test-bsale.onrender.com/api/v1/product/
+
+Para filtrar por categoria (requiere numero de la categoria por ejemplo /api/v1/category/1 ):
+https://test-bsale.onrender.com/api/v1/category/
+
+Categorias:
+1 bebida energetica
+6 Cerveza
+2 Pisco
+3 Ron
+5 Snack
+7 Vodka
+
 ## Frontend:
 Link del repositorio:
 https://github.com/Alfredocrd/desafio-bsaleFront
