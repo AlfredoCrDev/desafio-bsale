@@ -20,5 +20,13 @@ Heroku, Netlity, Aws u otro.
 ➔ Disponibilizar el código en Github.
 
 ## Backend:
+Para la construccion de la API se utilizo como base la arquitectura de 3 capas (CONTROLLERS - SERVICES - ACCESOBDD ):
+
+Dentro del **controlador** manejaremos todo lo relacionado con HTTP. Eso significa que estamos tratando con solicitudes y respuestas para nuestros endpoints. Por encima de esa capa también hay un pequeño **enrutador** de Express que pasa las solicitudes al controlador correspondiente y siguiendo las buenas practicas se versiona este primer endpoint para mantener el soporte a dicha version (v1).
+
+Toda la lógica comercial estará en la capa de **servicio** que exporta ciertos servicios (métodos) que utiliza el controlador.
+
+La tercera capa es la capa de **acceso** a datos donde trabajaremos con nuestra base de datos (Sólo consultas).
 
 ## Frontend:
+Link del repositorio:
